@@ -285,25 +285,42 @@
         "email": "ahmed@example.com",
         "address": "15 Nile Street, Cairo, Egypt"
       },
-      "products": [
-        {
-          "productId": "101",
-          "name": "iPhone 15 Pro",
-          "price": 1199.99,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2568?w=500"
-        },
-        {
-          "productId": "106",
-          "name": "Sony WH-1000XM5 Headphones",
-          "price": 349.99,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500"
-        }
-      ],
       "paymentMethod": "Visa ending in 4242",
       "totalPrice": 1549.98,
-      "status": "delivered"
+      "status": "delivered",
+      "suborders": [
+         {
+            "id": "5001-2",
+            "parentOrderId": "5001",
+            "sellerId": "2",
+            "date": "2024-03-15T10:30:00Z",
+            "customer": {
+              "userId": "4",
+              "name": "Ahmed Hassan",
+              "email": "ahmed@example.com",
+              "address": "15 Nile Street, Cairo, Egypt"
+            },
+            "products": [
+              {
+                "productId": "101",
+                "name": "iPhone 15 Pro",
+                "price": 1199.99,
+                "quantity": 1,
+                "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2568?w=500"
+              },
+              {
+                "productId": "106",
+                "name": "Sony WH-1000XM5 Headphones",
+                "price": 349.99,
+                "quantity": 1,
+                "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500"
+              }
+            ],
+            "paymentMethod": "Visa ending in 4242",
+            "subTotal": 1549.98,
+            "status": "delivered"
+         }
+      ]
     },
     {
       "id": "5002",
@@ -314,25 +331,59 @@
         "email": "sara@example.com",
         "address": "22 Alexandria Road, Giza, Egypt"
       },
-      "products": [
-        {
-          "productId": "105",
-          "name": "Women's Summer Dress",
-          "price": 49.99,
-          "quantity": 3,
-          "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500"
-        },
-        {
-          "productId": "103",
-          "name": "MacBook Pro 16-inch",
-          "price": 2499.99,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500"
-        }
-      ],
       "paymentMethod": "Cash on delivery",
       "totalPrice": 2649.96,
-      "status": "shipped"
+      "status": "shipped",
+      "suborders": [
+         {
+            "id": "5002-3",
+            "parentOrderId": "5002",
+            "sellerId": "3",
+            "date": "2024-03-18T14:45:00Z",
+            "customer": {
+              "userId": "5",
+              "name": "Sara Mahmoud",
+              "email": "sara@example.com",
+              "address": "22 Alexandria Road, Giza, Egypt"
+            },
+            "products": [
+              {
+                "productId": "105",
+                "name": "Women's Summer Dress",
+                "price": 49.99,
+                "quantity": 3,
+                "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500"
+              }
+            ],
+            "paymentMethod": "Cash on delivery",
+            "subTotal": 149.97,
+            "status": "shipped"
+         },
+         {
+            "id": "5002-2",
+            "parentOrderId": "5002",
+            "sellerId": "2",
+            "date": "2024-03-18T14:45:00Z",
+            "customer": {
+              "userId": "5",
+              "name": "Sara Mahmoud",
+              "email": "sara@example.com",
+              "address": "22 Alexandria Road, Giza, Egypt"
+            },
+            "products": [
+              {
+                "productId": "103",
+                "name": "MacBook Pro 16-inch",
+                "price": 2499.99,
+                "quantity": 1,
+                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500"
+              }
+            ],
+            "paymentMethod": "Cash on delivery",
+            "subTotal": 2499.99,
+            "status": "shipped"
+         }
+      ]
     },
     {
       "id": "5003",
@@ -343,25 +394,59 @@
         "email": "mohamed@example.com",
         "address": "7 Tahrir Square, Cairo, Egypt"
       },
-      "products": [
-        {
-          "productId": "102",
-          "name": "Samsung Galaxy S24 Ultra",
-          "price": 1399.99,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1707583882921-5934d6b4f0f3?w=500"
-        },
-        {
-          "productId": "104",
-          "name": "Men's Classic Leather Jacket",
-          "price": 199.99,
-          "quantity": 1,
-          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
-        }
-      ],
       "paymentMethod": "Mastercard ending in 1234",
       "totalPrice": 1599.98,
-      "status": "pending"
+      "status": "pending",
+      "suborders": [
+         {
+            "id": "5003-2",
+            "parentOrderId": "5003",
+            "sellerId": "2",
+            "date": "2024-03-20T09:15:00Z",
+            "customer": {
+              "userId": "6",
+              "name": "Mohamed Ali",
+              "email": "mohamed@example.com",
+              "address": "7 Tahrir Square, Cairo, Egypt"
+            },
+            "products": [
+              {
+                "productId": "102",
+                "name": "Samsung Galaxy S24 Ultra",
+                "price": 1399.99,
+                "quantity": 1,
+                "image": "https://images.unsplash.com/photo-1707583882921-5934d6b4f0f3?w=500"
+              }
+            ],
+            "paymentMethod": "Mastercard ending in 1234",
+            "subTotal": 1399.99,
+            "status": "pending"
+         },
+         {
+            "id": "5003-3",
+            "parentOrderId": "5003",
+            "sellerId": "3",
+            "date": "2024-03-20T09:15:00Z",
+            "customer": {
+              "userId": "6",
+              "name": "Mohamed Ali",
+              "email": "mohamed@example.com",
+              "address": "7 Tahrir Square, Cairo, Egypt"
+            },
+            "products": [
+              {
+                "productId": "104",
+                "name": "Men's Classic Leather Jacket",
+                "price": 199.99,
+                "quantity": 1,
+                "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+              }
+            ],
+            "paymentMethod": "Mastercard ending in 1234",
+            "subTotal": 199.99,
+            "status": "pending"
+         }
+      ]
     },
     {
       "id": "5004",
@@ -372,18 +457,35 @@
         "email": "ahmed@example.com",
         "address": "15 Nile Street, Cairo, Egypt"
       },
-      "products": [
-        {
-          "productId": "104",
-          "name": "Men's Classic Leather Jacket",
-          "price": 199.99,
-          "quantity": 2,
-          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
-        }
-      ],
       "paymentMethod": "Visa ending in 4242",
       "totalPrice": 399.98,
-      "status": "processing"
+      "status": "processing",
+      "suborders": [
+         {
+            "id": "5004-3",
+            "parentOrderId": "5004",
+            "sellerId": "3",
+            "date": "2024-03-22T16:20:00Z",
+             "customer": {
+               "userId": "4",
+               "name": "Ahmed Hassan",
+               "email": "ahmed@example.com",
+               "address": "15 Nile Street, Cairo, Egypt"
+             },
+            "products": [
+              {
+                "productId": "104",
+                "name": "Men's Classic Leather Jacket",
+                "price": 199.99,
+                "quantity": 2,
+                "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+              }
+            ],
+            "paymentMethod": "Visa ending in 4242",
+            "subTotal": 399.98,
+            "status": "processing"
+         }
+      ]
     }
   ],
   "wishlist": [
