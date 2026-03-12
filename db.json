@@ -387,6 +387,12 @@
     }
   ],
   "wishlist": [
+    {
+  "id": "wl_abc123",
+  "userId": "1bbd05ef-914f-4b3a-bdf1-bcd2990369e1",
+  "productId": "101",
+  "addedAt": "2024-01-01T00:00:00Z"
+}
   
   ],
   "$schema": "./node_modules/json-server/schema.json"
