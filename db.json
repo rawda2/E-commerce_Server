@@ -71,9 +71,7 @@
         }
       ]
     }
-   ]
-    }
-  ],
+   ],
   "wishlist": [
     {
   "id": "wl_abc123",
@@ -81,7 +79,6 @@
   "productId": "101",
   "addedAt": "2024-01-01T00:00:00Z"
 }
-  
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
