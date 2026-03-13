@@ -25,7 +25,8 @@
       ]
     }
   ],
-   "cart": [
+
+  "cart": [
     {
       "id": "1001",
       "userId": "4",
@@ -36,8 +37,8 @@
         "https://images.unsplash.com/photo-1695048133142-1a20484d2568?w=500"
       ],
       "quantity": 1
-    },
-   ],
+    }
+  ],
 
   "orders": [
     {
